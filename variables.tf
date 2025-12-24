@@ -3,11 +3,11 @@ variable "aws_region" {
 }
 
 variable "github_org" {
-  description = "ahmadwasim7"
+  default = "ahmadwasim7"
 }
 
 variable "github_repo" {
-  description = "terraform-aws-oidc"
+  default = "terraform-aws-oidc"
 }
 
 variable "github_branch" {
